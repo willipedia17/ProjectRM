@@ -42,9 +42,9 @@ dependencies {
     implementation ("com.squareup.retrofit2:retrofit:2.9.0")
     implementation ("com.squareup.retrofit2:converter-gson:2.9.0")
 
-    //AI model
-    implementation ("org.pytorch:pytorch_android:1.9.0")
-    implementation ("org.pytorch:pytorch_android_torchvision:1.9.0")
+//    //AI model
+//    implementation ("org.pytorch:pytorch_android:1.9.0")
+//    implementation ("org.pytorch:pytorch_android_torchvision:1.9.0")
 
     implementation("androidx.core:core-ktx:1.12.0")
     implementation("androidx.appcompat:appcompat:1.6.1")

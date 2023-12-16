@@ -4,7 +4,6 @@ import android.Manifest
 import android.app.Activity
 import android.content.Intent
 import android.content.pm.PackageManager
-import android.graphics.Bitmap
 import android.os.Bundle
 import android.provider.MediaStore
 import android.view.LayoutInflater
@@ -148,13 +147,13 @@ class AddIngredients : Fragment() {
 
     override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
         super.onActivityResult(requestCode, resultCode, data)
-
-        val modelInference = AIModel(requireContext())
+//
+//        val modelInference = AIModel(requireContext())
 
         if (requestCode == CAMERA_REQUEST_CODE && resultCode == Activity.RESULT_OK) {
-
-            val photo: Bitmap = data?.extras?.get("data") as Bitmap
-            val result = modelInference.performInference(photo)
+//
+//            val photo: Bitmap = data?.extras?.get("data") as Bitmap
+//            val result = modelInference.performInference(photo)
         }
     }
 
