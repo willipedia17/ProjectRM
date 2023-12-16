@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ProjectRM</string>
+    <string name="recipe">Recipes</string>
+    <string name="addIngredients">Add Ingredients</string>
+    <string name="title">Title</string>
+    <string name="summary">Summary</string>
+    <string name="generate">Generate</string>
+</resources>
